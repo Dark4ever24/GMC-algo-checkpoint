@@ -1,0 +1,34 @@
+
+
+   ALGORITHM sentence_length
+VAR
+ n_of_words , n_of_chars , n_of_vowels :=INTEGER; 
+   
+    c:='' CHAR;
+
+
+    
+BEGIN
+
+
+    WHILE (c <> '.')  DO
+       
+        Read(c);
+
+        n_of_chars:= n_of_chars +1;
+
+        IF (c = 'a' || ch ='e' ||ch ='u' || ch ='i' || ch ='o') THEN
+ 
+ 
+            n_of_vowles:= n_of_vowles +1;
+ 
+ END_WHILE
+
+
+        IF (c=' ') THEN
+            n_of_words:= n_of_words +1;
+        END_IF
+        
+
+   
+END
